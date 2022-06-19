@@ -1,0 +1,9 @@
+FROM python:3.6.9
+COPY . /app
+WORKDIR /app
+EXPOSE 5000
+CMD gunicorn --workers=4 --bind 5000:5000 app:app
+
+
+
+
