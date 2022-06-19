@@ -103,3 +103,4 @@ jobs:
           version_label: "docker-app-${{ steps.format-time.outputs.replaced }}"
           region: us-west-2
           deployment_package: deploy.zip      
+
